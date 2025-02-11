@@ -1,0 +1,17 @@
+#include <stdio.h>
+#include <stdlib.h>
+
+int main() {
+    int A, B;
+
+    printf("Digite dois números inteiros: ");
+    scanf("%d %d", &A, &B);
+
+    if (A%B == 0 || B%A ==0) {
+        printf("São multiplos.\n");
+    } else {
+        printf("Não são multiplos.\n");
+    }
+
+    return 0;
+}
