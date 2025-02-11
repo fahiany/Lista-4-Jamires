@@ -1,0 +1,17 @@
+#include <stdio.h>
+#include <stdlib.h>
+
+int main() {
+    int A, M, B;
+
+    printf("Digite a nota da primeira prova: ");
+    scanf("%d", &A);
+    printf("Digite a média entre as duas provas: ");
+    scanf("%d", &M);
+
+    B = 2 * M - A;
+
+    printf("O resultado é:\n%d\n", B);
+
+    return 0;
+}
